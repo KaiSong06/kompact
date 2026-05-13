@@ -1,0 +1,8 @@
+{
+  "name": "kompact",
+  "description": "Create concise handoff files and continue Claude Code sessions from them.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kompact contributors"
+  }
+}

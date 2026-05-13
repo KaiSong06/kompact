@@ -1,0 +1,20 @@
+{
+  "name": "kaisong-plugins",
+  "owner": {
+    "name": "KaiSong06"
+  },
+  "description": "Claude Code plugins by KaiSong06.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "kompact",
+      "source": {
+        "source": "github",
+        "repo": "KaiSong06/kompact"
+      },
+      "description": "Create concise Claude Code handoffs and continue from them.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
