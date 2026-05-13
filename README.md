@@ -54,7 +54,3 @@ Missing facts should be marked explicitly instead of invented.
 - The plugin writes a single current `handoff.md`; it does not keep a handoff archive.
 - The plugin does not start or manage a new Claude Code session.
 - Review `handoff.md` before carrying it into another session if it may contain sensitive details.
-
-## Testing
-
-Use [docs/testing/kompact-plugin-smoke-test.md](docs/testing/kompact-plugin-smoke-test.md) for manual acceptance checks.
