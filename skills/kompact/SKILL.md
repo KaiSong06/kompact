@@ -10,7 +10,7 @@ Create or replace `handoff.md` for the current work. This is a continuation hand
 
 ## Workflow
 
-1. Read `${CLAUDE_SKILL_DIR}/references/handoff-template.md` before writing the handoff.
+1. Read `references/handoff-template.md` from this skill directory before writing the handoff. In Claude Code this resolves via `${CLAUDE_SKILL_DIR}/references/handoff-template.md`; in Codex, resolve it relative to this `SKILL.md`.
 2. Identify the handoff location:
    - Use the git repository root when available.
    - If no git root is available, use the current working directory.

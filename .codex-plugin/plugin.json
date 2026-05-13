@@ -1,0 +1,40 @@
+{
+  "name": "kompact",
+  "version": "0.1.0",
+  "description": "Create concise handoff files and continue agent sessions from them.",
+  "author": {
+    "name": "KaiSong06",
+    "url": "https://github.com/KaiSong06"
+  },
+  "homepage": "https://github.com/KaiSong06/kompact",
+  "repository": "https://github.com/KaiSong06/kompact",
+  "license": "MIT",
+  "keywords": [
+    "handoff",
+    "context",
+    "continuation",
+    "codex",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kompact",
+    "shortDescription": "Create concise handoffs and continue from them.",
+    "longDescription": "Kompact creates a tight handoff.md with goal, current state, active files, touched work, failed attempts, and next step, then lets a later session continue from that handoff without carrying a long transcript.",
+    "developerName": "KaiSong06",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/KaiSong06/kompact",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "$kompact create a handoff",
+      "$kompact continue from my handoff"
+    ],
+    "screenshots": []
+  }
+}
